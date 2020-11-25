@@ -1,1 +1,153 @@
-color 
+/* first page */
+
+/* first color - #212121;
+second color - #2196f3;
+third color - #757575;
+footer-color: rgba(255, 255, 255, 0.6); */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #ffffff;
+    --first-color: #212121;
+    --second-color: #2196f3;
+    --third-color: #757575;
+    --footer-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: var(--main-color);
+  font-family: Roboto; 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.12;
+}
+
+/* Header  */
+.logo {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo > span {
+  color: #188CE8;
+}
+
+
+.list-menu .list-item {
+  color: var(--first-color);
+}
+.list-menu .list-item:hover, 
+.list-menu .list-item:focus
+ {
+  color: var(--second-color);
+}
+.list-menu .list-item.current {
+  color: var(--second-color);
+}
+
+.contact-menu .contact-list {
+  color: var(--third-color);
+}
+.contact-menu .contact-list:hover,
+.contact-menu .contact-list:focus {
+  color: var(--second-color);  
+}
+
+/*SECTION*/
+.section {
+  background-color: #2F303A;
+  }
+.section .section-title,
+.section .button {
+  color: var(--main-color);
+}
+.button {
+  background-color: #188CE8;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+}
+
+.section-title {
+ font-weight: 900;
+ font-size: 44px;
+ line-height: 1.36;
+text-align: center;
+}
+
+/* SECTION INFO */
+.section-info .info-title {
+  color: var(--first-color);
+
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+ .info-text {
+  color: var(--third-color);
+
+  line-height: 1.71;
+}
+
+/* SECTION ABOUTAS */
+.aboutus-title {
+ color: var(--first-color); 
+
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.17;
+ text-align: center;
+}
+
+/* SECTION OURTEAM */
+.card {
+  background-color: var(--main-color);
+}
+.section-ourteam {
+  background-color: #F5F4FA;;
+}
+.ourteam-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.ourteam-title, .card-title {
+  color: var(--first-color);
+}
+.card-text {
+  color: var(--third-color);
+}
+.card-title {
+  font-weight: 500;
+}
+.card-text .card-title {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* footer */
+.footer {
+  background-color: #2F303A;;
+}
+.address {
+  line-height: 1.71;
+}
+.address-title {
+  color: var(--main-color);
+}
+.address-list{
+  color: var(--footer-color);
+}
+.address-list:hover, 
+.address-list:focus {
+  color: var(--second-color);
+}

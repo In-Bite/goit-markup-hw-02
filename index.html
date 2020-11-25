@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Home work 1</title>
 </head>
@@ -13,43 +15,47 @@
         <nav class="nav-menu">
             <a href="./index.html" class="logo"><span>Web</span>Studio</a>
             <ul class="list-menu">
-                <li><a href="./index.html">Контакты</a></li>
-                <li><a href="./index.html">Портфолио</a></li>
-                <li><a href="./index.html">Студия</a></li>
+                <li><a href="./index.html" class="list-item current">Студия</a></li>
+                <li><a href="./portfolio.html" class="list-item">Портфолио</a></li>
+                <li><a href="./index.html" class="list-item">Контакты</a></li>
             </ul>
         </nav>
         <ul class="contact-menu">
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="contact-list">+38 096 111 11 11</a></li>
+            <li><a href="mailto:info@devstudio.com" class="contact-list">info@devstudio.com</a></li>
         </ul>
     </header>
     <main>
         <section class="section">
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button>Заказать услугу</button>
+            <h1 class="section-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="button">Заказать услугу</button>
         </section>
         <section class="section-info">
             <ul>
                 <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="info-title">Внимание к деталям</h3>
+                    <p class="info-text">Идейные соображения, а также начало повседневной работы по формированию
+                        позиции.</p>
                 </li>
                 <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="info-title">Пунктуальность</h3>
+                    <p class="info-text">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                        собой.</p>
                 </li>
                 <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="info-title">Планирование</h3>
+                    <p class="info-text">Равным образом консультация с широким активом в значительной степени
+                        обуславливает.</p>
                 </li>
                 <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="info-title">Современные технологии</h3>
+                    <p class="info-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                    </p>
                 </li>
             </ul>
         </section>
         <section class="section-aboutus">
-            <h2>Чем мы занимаемся</h2>
+            <h2 class="aboutus-title">Чем мы занимаемся</h2>
             <ul>
                 <li><img src="./img/img.png" alt="планшет" width="370"></li>
                 <li><img src="./img/img-2.png" alt="компьютер" width="370"></li>
@@ -57,34 +63,34 @@
             </ul>
         </section>
         <section class="section-ourteam">
-            <h2>Наша команда</h2>
+            <h2 class="ourteam-title">Наша команда</h2>
             <ul>
-                <li>
+                <li class="card">
                     <img src="./img/команда/img.png" alt="Игорь Демьяненко" width="270">
                     <div>
-                        <h3>Игорь Демьяненко</h3>
-                        <p>Product Designer</p>
+                        <h3 class="card-title">Игорь Демьяненко</h3>
+                        <p class="card-text">Product Designer</p>
                     </div>
                 </li>
-                <li>
+                <li class="card">
                     <img src="./img/команда/img-2.png" alt="Ольга Репина" width="270">
                     <div>
-                        <h3>Ольга Репина</h3>
-                        <p>Frontend Developer</p>
+                        <h3 class="card-title">Ольга Репина</h3>
+                        <p class="card-text">Frontend Developer</p>
                     </div>
                 </li>
-                <li>
+                <li class="card">
                     <img src="./img/команда/img-3.png" alt="Николай Тарасов" width="270">
                     <div>
-                        <h3>Николай Тарасов</h3>
-                        <p>Marketing</p>
+                        <h3 class="card-title">Николай Тарасов</h3>
+                        <p class="card-text">Marketing</p>
                     </div>
                 </li>
-                <li>
+                <li class="card">
                     <img src="./img/команда/img-4.png" alt="Михаил Ермаков" width="270">
                     <div>
-                        <h3>Михаил Ермаков</h3>
-                        <p>UI Designer</p>
+                        <h3 class="card-title">Михаил Ермаков</h3>
+                        <p class="card-text">UI Designer</p>
                     </div>
                 </li>
             </ul>
@@ -94,10 +100,10 @@
         <a href="./index.html" class="logo"><span>Web</span>Studio</a>
 
         <address class="address">
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <p class="address-title">г. Киев, пр-т Леси Украинки, 26</p>
             <ul>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="address-list">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="address-list">info@devstudio.com</a></li>
             </ul>
         </address>
 
