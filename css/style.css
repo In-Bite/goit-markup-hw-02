@@ -39,6 +39,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .logo > span {
   color: #188CE8;
@@ -49,6 +50,7 @@ body {
   color: var(--first-color);
 
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .list-menu .list-item:hover, 
 .list-menu .list-item:focus
@@ -63,6 +65,7 @@ body {
   color: var(--third-color);
 
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contact-menu .contact-list:hover,
 .contact-menu .contact-list:focus {
@@ -84,6 +87,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .section-title {
@@ -91,6 +95,8 @@ body {
  font-size: 44px;
  line-height: 1.36;
  text-align: center;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
 }
 
 /* SECTION INFO */
@@ -99,11 +105,14 @@ body {
 
   font-weight: 700;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
  .info-text {
   color: var(--third-color);
 
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* SECTION ABOUTAS */
@@ -114,6 +123,7 @@ body {
  font-size: 36px;
  line-height: 1.17;
  text-align: center;
+ letter-spacing: 0.03em;
 }
 
 /* SECTION OURTEAM */
@@ -128,6 +138,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .ourteam-title, .card-title {
   color: var(--first-color);
@@ -139,6 +150,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -148,6 +160,7 @@ body {
 .address {
   line-height: 1.71;
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 .address-title {
   color: var(--main-color);
@@ -172,6 +185,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .nav-button .portfolio-button > button {
   background-color: var(--second-color);
@@ -195,5 +209,6 @@ body {
 
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
