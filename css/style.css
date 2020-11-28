@@ -147,6 +147,7 @@ body {
 }
 .address {
   line-height: 1.71;
+  font-style: normal;
 }
 .address-title {
   color: var(--main-color);
